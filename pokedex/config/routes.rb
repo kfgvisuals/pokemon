@@ -1,5 +1,10 @@
 Rails.application.routes.draw do
+  resources :pokebags do
+    resources :pokemons
+  end
   resources :pokemons
-  resources :users
+  resources :users do
+    resources :pokebags
+  end
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
