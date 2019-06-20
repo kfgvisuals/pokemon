@@ -1,16 +1,23 @@
+html {
+  background-image: url('https://cdn.vox-cdn.com/thumbor/9p4TnYw9owPdK5P7PUOCBnRYlYc=/0x0:1024x1517/1200x800/filters:focal(431x678:593x840)/cdn.vox-cdn.com/uploads/chorus_image/image/62280037/detective_pikachu_poster_1024.0.jpg');
+  background-size:cover;
+  height:100%;
+  background-attachment: fixed;
+}
 body {
-  background-color: #fff;
-  color: #333;
+  background-color: rgba(0,0,0,0.8);
+  color: white;
   margin: 33px;
+  padding:1vw;
   font-family: verdana, arial, helvetica, sans-serif;
-  font-size: 13px;
-  line-height: 18px;
+  font-size: 30px;
+  line-height: 36px;
 }
 
 p, ol, ul, td {
   font-family: verdana, arial, helvetica, sans-serif;
-  font-size: 13px;
-  line-height: 18px;
+  font-size: 26px;
+  line-height: 30px;
 }
 
 pre {
@@ -20,15 +27,15 @@ pre {
 }
 
 a {
-  color: #000;
+  color: rgb(189, 202, 4);
 
   &:visited {
-    color: #666;
+    color: rgb(122, 133, 28);
   }
 
   &:hover {
     color: #fff;
-    background-color: #000;
+    // background-color: #000;
   }
 }
 
